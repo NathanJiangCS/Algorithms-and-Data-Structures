@@ -1,4 +1,6 @@
 #Breadth first search implementation with python
+#Can be used to find either if there is a possible path between 2 paths as well as solving the single source shortest path problem
+#for unweighted graphs.
 
 from queue import Queue
 
