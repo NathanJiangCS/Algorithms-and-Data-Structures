@@ -3,7 +3,7 @@
 
 infinity = float('inf')
 
-#a is the adjacency list representation of the matrix
+#a is the adjacency list representation of the graph
 #start is the initial node, end is the destination node
 def spfa(a, start, end):
     n = len(a)
@@ -21,3 +21,5 @@ def spfa(a, start, end):
 
     return distances, distances[end]
 
+#This code does not check for a negative cycle which would result
+#in an infinite loop
